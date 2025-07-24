@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react'
 
-import { QuizContext } from './context/quiz'
+import { QuizContext } from './context/Quiz'
 import { Welcome } from './components/Welcome'
 import Question from './components/Question'
 import GameOver from './components/GameOver'
