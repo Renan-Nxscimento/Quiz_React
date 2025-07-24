@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { QuizContext } from '../context/Quiz'
 
 import './GameOver.css'
-import Welldone from '../img/Welldone.svg'
+import Welldone from '../img/welldone.svg'
 
 const GameOver = () => {
   const [quizState, dispatch] = useContext(QuizContext)
