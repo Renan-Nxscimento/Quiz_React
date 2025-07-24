@@ -1,9 +1,7 @@
-import React from 'react'
-
-import './Question.css'
 import { useContext } from 'react'
-import { QuizContext } from '../context/Quiz'
-import Option from './Option'
+import { QuizContext } from '../context/Quiz.jsx'
+import Option from './Option.jsx'
+import './Question.css'
 
 const Question = () => {
     const [quizState, dispatch] = useContext(QuizContext)

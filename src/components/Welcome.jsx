@@ -1,7 +1,7 @@
 import React from 'react'
 import Quiz from '../img/quiz.svg'
 import { useContext } from 'react'
-import { QuizContext } from '../context/Quiz'
+import { QuizContext } from '../context/Quiz.jsx'
 
 import './Welcome.css'
 

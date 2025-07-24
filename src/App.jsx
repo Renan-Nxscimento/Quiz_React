@@ -1,18 +1,16 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 
-import { QuizContext } from './context/Quiz'
-import { Welcome } from './components/Welcome'
-import Question from './components/Question'
-import GameOver from './components/GameOver'
-import PickCategory from './components/PickCategory'
+import { QuizContext } from './context/Quiz.jsx'
+import { Welcome } from './components/Welcome.jsx'
+import Question from './components/Question.jsx'
+import GameOver from './components/GameOver.jsx'
+import PickCategory from './components/PickCategory.jsx'
 
 import './App.css'
 
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext)
-
-  
 
   return (
     <>

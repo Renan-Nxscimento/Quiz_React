@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { QuizContext } from '../context/Quiz'
+import { useContext } from 'react'
+import { QuizContext } from '../context/Quiz.jsx'
 
 import './Option.css'
 

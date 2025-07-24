@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { QuizContext } from '../context/Quiz'
+import { QuizContext } from '../context/Quiz.jsx'
 import Category from '../img/category.svg'
 import './PickCategory.css'
 

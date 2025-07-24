@@ -1,6 +1,5 @@
-import React from 'react'
 import { useContext } from 'react'
-import { QuizContext } from '../context/Quiz'
+import { QuizContext } from '../context/Quiz.jsx'
 
 import './GameOver.css'
 import Welldone from '../img/welldone.svg'
